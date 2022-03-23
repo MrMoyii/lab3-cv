@@ -1,95 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Mi Currículum Vitae</title>
-    </head>
-    <body>
-        <header>
-            <h1>Lisandro Bonino</h1>
-            <p>Estudiante</p>
-            <img src="yo.png">
-        </header>
+  <head>
+    <title>Mi Currículum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-        <main>
-            <section>
-                <h2>Detalles</h2>
-                
-                <div>
-                    <h3>Contactos</h3>
-                    <ul>
-                        <li>San Francisco, Córdoba</li>
-                        <li>3406 429352</li>
-                        <li><a href="mailto:lisandrobonino4@protonmail.com">lisandrobonino4@protonmail.com</a></li>
-                    </ul>
-                </div>
-                    
-                <div>
-                    <h3>Nacionalidad</h3>
-                    <p>Argentina</p>
-                </div>
-                    
-                <div>
-                    <h3>Fecha y lugar de nacimiento</h3>
-                    <ul>
-                        <li>04/01/2002</li>
-                        <li>San Jorge, Santa Fe</li>
-                    </ul>
-                </div>
-            </section>
+  <body>
+    <header>
+      <div id="header-text" class="bold">
+        <h1>LISANDRO BONINO</h1>
+        <p>Estudiante</p>
+      </div>
 
-            <section>
-                <h2>Educación</h2>
-                <ul>
-                    <li>
-                        <p>Universitario, Tecnicatura Universitaria en Programación, Universidad Tecnológica Nacional Facultad Regional San Francisco, San Francisco, Córdoba</p>
-                        <p>MARZO 2021 - PRESENTE</p>
-                        <ul>
-                            <li>Cursando el 2º año de la Tecnicatura Universitaria en Programación</li>
-                            <li>Fecha prevista de finalización: 11/2022</li>
-                        </ul>
-                    </li>
+      <img id="cv-foto" src="yo.png">
+    </header>
 
-                    <li>
-                        <p>Secundario, Técnico en Equipos e Instalaciones Electromecánicas, Escuela de Educación Técnica Profesional Nº 475, San Jorge, Santa Fe</p>
-                        <p>FEBRERO 2015 - MARZO 2021</p>
-                        <ul>
-                            <li>Promedio general: 8,51</li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
+    <main>
+      <section>
+        <h2>Detalles</h2>
+        
+        <div class="detalles-contenido">
+          <div>
+            <h3>Contactos</h3>
+            <ul class="ul-unstyled">
+              <li>San Francisco, Córdoba</li>
+              <li>3406 429352</li>
+              <li><a href="mailto:lisandrobonino4@gmail.com" target="_blank">lisandrobonino4@gmail.com</a></li>
+            </ul>
+          </div>
+              
+          <div>
+            <h3>Nacionalidad</h3>
+            <p>Argentina</p>
+          </div>
+              
+          <div>
+            <h3>Fecha y lugar de nacimiento</h3>
+            <ul class="ul-unstyled">
+              <li>04/01/2002</li>
+              <li>San Jorge, Santa Fe</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-            <section>
-                <h2>Idiomas</h2>
-                <p>Inglés</p>
-                <ul>
-                    <li>Lectura y escritura: intermedio</li>
-                    <li>Escucha y habla: básico</li>
-                </ul>
-            </section>
+      <section>
+        <h2>Educación</h2>
+        <ul id="instituciones" class="ul-unstyled">
+          <li>
+            <p class="bold">Universidad Tecnológica Nacional Facultad Regional San Francisco – San Francisco, Córdoba</p>
+            <p class="periodo bold">MARZO 2021 – PRESENTE</p>
+            <ul class="instituciones-detalles">
+              <li>Cursando la carrera de Tecnicatura Universitaria en Programación</li>
+              <li>Fecha prevista de finalización: 11/2022</li>
+            </ul>
+          </li>
 
-            <section>
-                <h2>Proyectos personales</h2>
-                <ul>
-                    <li>Simple <a href="https://github.com/LBonino/restaurant" target="_blank">página</a> para restaurante ficticio</li>
-                    <li><a href="https://github.com/LBonino/calculator" target="_blank">Calculadora</a></li>
-                    <li><a href="https://github.com/LBonino/tic-tac-toe" target="_blank">Ta Te Tí</a></li>
-                    <li><a href="" target="_blank">Perfil de GitHub</a> con más proyectos</li>
-                </ul>
-                <p>Hasta el momento, todos los proyectos listados fueron propuestos por distintos cursos online</p>
-            </section>
+          <li>
+            <p class="bold">
+              Escuela de Educación Técnica Profesional Nº 475 – San Jorge, Santa Fe
+            </p>
+            <p class="periodo bold">FEBRERO 2015 – MARZO 2021</p>
+            <ul class="instituciones-detalles">
+              <li>Graduado con el título de Técnico en Equipos e Instalaciones Electromecánicas</li>
+              <li>Promedio general: 8,5</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
 
-            <section>
-                <h2>Intereses y hobbies</h2>
-                <ul>
-                    <li>Pasear y jugar con mis perros</li>
-                    <li>Básquet, ver y/o jugar casualmente</li>
-                    <li>Música: Rock, Jazz, cualquiera que destaque por guitarra, bajo, batería, saxo o piano</li>
-                    <li>Videojuegos: cualquier tipo, preferentemente indies y emulación de consolas de generaciones pasadas</li>
-                    <li>Hardware en general: noticias y discusiones acerca de computadoras, auriculares, celulares, entre otros</li>
-                    <li>Aprender inglés a través de los intereses mencionados anteriormente, consumiendo todo el contenido posible en dicho idioma: videos, discusiones, artículos, etc.</li>
-                </ul>
-            </section>
-        </main>
-    </body>
+      <section>
+        <h2>Idiomas</h2>
+        <p class="bold">Inglés</p>
+        <ul class="ul-unstyled">
+          <li>Lectura y escritura: intermedio</li>
+          <li>Escucha y habla: básico</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Proyectos personales</h2>
+        <ul>
+          <li>Simple <a href="https://github.com/LBonino/restaurant" target="_blank">página</a> para restaurante ficticio</li>
+          <li><a href="https://github.com/LBonino/calculator" target="_blank">Calculadora</a></li>
+          <li><a href="https://github.com/LBonino/tic-tac-toe" target="_blank">Ta Te Tí</a></li>
+          <li><a href="" target="_blank">Perfil de GitHub</a> con más proyectos</li>
+        </ul>
+        <p>Hasta el momento, todos los proyectos listados fueron propuestos por distintos cursos online</p>
+      </section>
+
+      <section>
+        <h2>Intereses y hobbies</h2>
+        <ul>
+          <li>Pasear y jugar con mis perros</li>
+          <li>Básquet, ver y/o jugar casualmente</li>
+          <li>Música: Rock, Jazz, cualquiera que destaque por guitarra, bajo, batería, saxo o piano</li>
+          <li>Videojuegos: cualquier tipo, preferentemente indies y emulación de consolas de generaciones pasadas</li>
+          <li>Hardware en general: noticias y discusiones acerca de computadoras, auriculares, celulares, entre otros</li>
+          <li>
+            Aprender inglés a través de los intereses mencionados anteriormente, consumiendo todo el contenido posible 
+            en dicho idioma: videos, discusiones, artículos, etc.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>

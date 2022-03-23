@@ -1,0 +1,115 @@
+body, .ul-unstyled, h1, p {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    font-family: 'Bitter';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 221, 255);
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: solid 4px gold;
+}
+
+header > * {
+    margin: 0 2%;
+}
+
+#cv-foto {
+    object-fit: none;
+    object-position: 50% 38%;
+    border: solid 3px gold;
+    background-color: #111;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+section {
+    margin: 5% 15%;
+    color: #333;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.detalles-contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    line-height: 1.5;
+}
+
+.ul-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.ul-unstyled ul {
+    list-style-type: disc;
+}
+
+a {
+    color: rgb(89, 145, 182);
+}
+
+a:hover {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    margin: 1rem 0;
+    width: fit-content;
+    background-color: #111;
+    color: white;
+    padding: 2px 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#instituciones > li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.instituciones-detalles {
+    margin-top: 0.4rem;
+}
+
+.periodo {
+    color: rgb(89, 145, 182);
+}
+
+@media (orientation: portrait) {
+    .detalles-contenido {
+        display: block;
+    }
+
+    section {
+        margin: 5% 5%;
+    }
+
+    h3 {
+        margin-top: 18px;
+    }
+}
