@@ -17,7 +17,7 @@ header {
     background-color: rgb(170, 221, 255);
     width: 100%;
     padding: 1rem 0;
-    border-bottom: solid 4px gold;
+    border-bottom: solid 4px rgb(0, 101, 101);
 }
 
 header > * {
@@ -27,7 +27,7 @@ header > * {
 #cv-foto {
     object-fit: none;
     object-position: 50% 38%;
-    border: solid 3px gold;
+    border: solid 3px rgb(0, 101, 101);
     background-color: #111;
     border-radius: 50%;
     width: 6.5rem;
@@ -68,11 +68,13 @@ ul {
 
 a {
     color: rgb(89, 145, 182);
+    text-decoration: none;
 }
 
 a:hover {
-    color: goldenrod;
+    color: rgb(0, 101, 101);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -116,4 +118,8 @@ h2 {
     h3 {
         margin-top: 18px;
     }
+}
+
+.container {
+    background-color: rgb(240, 255, 255);
 }
